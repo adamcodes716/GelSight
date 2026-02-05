@@ -1,0 +1,36 @@
+# 3D and binary scan files (too large for git)
+*.stl
+*.x3p
+*.tmd
+*.ply
+*.obj
+
+# Images (store separately)
+*.png
+*.jpg
+*.jpeg
+*.bmp
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+
+# Temporary files
+*.tmp
+*.log
+~$*
