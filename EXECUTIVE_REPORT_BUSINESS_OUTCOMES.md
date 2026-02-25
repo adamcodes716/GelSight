@@ -174,24 +174,6 @@ Customer N's Data ─┘   New customer = days of setup
 | **Storage Architecture (ADLS2)** | Three-layer data vault (Bronze/Silver/Gold) with automatic lifecycle management | Immutable data storage for compliance + optimized storage tiers for cost |
 | **Database Schema** | Dimensional modeling framework for measurements, devices, calibrations | Enables consistent analytics across all customer scans |
 
-### ✅ Documentation Delivered
-
-The project includes **90+ pages** of technical and strategic documentation:
-
-**For Executives & Decision-Makers:**
-- Project Summary (why you built this)
-- This Executive Report (what you got)
-- Roadmap with timelines and phase gates
-
-**For Operations Teams:**
-- Infrastructure Quick Start (how everything is connected)
-- Code Promotion Strategy (how changes move from dev to production safely)
-- Setup Checklists (step-by-step implementation guides)
-
-**For Technical Teams:**
-- Data Inventory (complete specification of all data formats)
-- Integration Architecture (how systems talk to each other)
-- Schema Design (dimensional models for analytics)
 
 ### ✅ Sample Implementation
 
@@ -203,7 +185,7 @@ A **working prototype** of the full pipeline has been built with sample GelSight
 
 ---
 
-## PART 5: THE BUSINESS OUTCOMES YOU CAN NOW ACHIEVE
+## PART 5: THE BUSINESS OUTCOMES THAT WILL BE POSSIBLE IN A FUTURE PHASE
 
 ### Outcome 1: Analytics & Reporting
 **What You Get:** Real-time dashboards showing:
@@ -307,77 +289,15 @@ A **working prototype** of the full pipeline has been built with sample GelSight
 
 ---
 
-### Phase 4: Edge Deployment (Month 6+)
-**What We're Doing:** Push ML models onto GelSight devices
-- Lightweight models that run on device hardware
-- Real-time inspection without cloud round-trip
-- Autonomous operation
-
-**You'll Have:** GelSight devices that inspect without human intervention
-
----
-
-## PART 7: KEY RISKS & HOW THEY'RE MANAGED
-
-| Risk | How We're Mitigating It |
-|---|---|
-| **Data migration errors** | Bronze layer immutable—we can replay from raw files if needed |
-| **Unexpected costs** | Landing Zone includes cost controls; Databricks has auto-shutdown |
-| **Security breach** | Unity Catalog logs all access; encryption both in-transit and at-rest |
-| **Performance issues** | Three-layer architecture separates operational queries from analytical queries |
-| **Vendor lock-in** | Data stored in open formats (Parquet); code in Python (portable) |
-
----
-
-## PART 8: SUCCESS METRICS (How You Know This Is Working)
-
-Track these to measure success:
-
-| Metric | Target | Timeline |
-|---|---|---|
-| **Time to analyze a scan** | < 5 minutes (vs. 30+ today) | Phase 2 |
-| **Cost per inspection** | -60% reduction | Phase 2 |
-| **Data quality score** | 98%+ accurate measurements | Phase 1 |
-| **Customer onboarding time** | 2 weeks (vs. 2 months) | Phase 1 |
-| **ML model accuracy** | 95%+ defect detection | Phase 3 |
-| **Uptime/Availability** | 99.5% SLA | Phase 1 |
-
----
-
-## PART 9: INVESTMENT SUMMARY
-
-### What You Spent
-- Cloud infrastructure (Azure Landing Zone, Databricks, Storage): ~$X/month
-- Professional services (architecture, implementation, documentation): ~$X (one-time)
-- Team time (planning, design, validation): ~$X
-
-### What You Get Back
-**Year 1:**
-- 40% reduction in inspection labor costs: $X savings
-- Reduced scrap/rework: $X savings
-- Improved time-to-market: $X of revenue acceleration
-- **ROI: 2-3x**
-
-**Year 2+:**
-- Multi-customer platform enables 5-10x revenue growth
-- Margins improve as fixed costs amortize across customers
-- New products (analytics as a service, automated inspection)
-- **Path to $X million in new revenue**
-
----
-
 ## CONCLUSION: Why This Matters
 
 You're not just building a data warehouse. You're building:
 
 1. **An operational platform** that makes your manufacturing faster and cheaper
 2. **A multi-customer business** that can scale to enterprise customers worldwide
-3. **An AI/ML platform** that eventually makes your products smarter than your competitors'
+3. **An AI/ML platform (future phase)** that eventually makes your products smarter than your competitors'
 4. **An asset** that generates competitive advantage and customer lock-in
 
-The infrastructure is **built, tested, and ready**. The roadmap is **clear**. The team knows **what to do next**.
-
-Your next step is to move forward into Phase 1 with confidence that you have the right foundation to win in the market for AI-powered surface inspection.
 
 ---
 
@@ -400,5 +320,3 @@ Your next step is to move forward into Phase 1 with confidence that you have the
 
 ---
 
-**Questions? Contact the project team.**  
-**Ready to proceed to Phase 1? Let's schedule the production deployment kick-off.**
